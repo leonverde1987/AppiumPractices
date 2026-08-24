@@ -35,8 +35,8 @@ public class basic_interaction_appium {
     @BeforeClass
     public void setUp(){
         optA = new UiAutomator2Options()
-                //.setUdid("emulator-5554")//Emulator device
-                .setUdid("320124841951")//Real device to see devices available go to SDK path PlatformTools and use de command ./adb devices
+                .setUdid("emulator-5554")//Emulator device
+                //.setUdid("320124841951")//Real device to see devices available go to SDK path PlatformTools and use de command ./adb devices
                 .setApp(APK);
     }
 
